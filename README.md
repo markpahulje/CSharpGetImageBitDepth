@@ -18,5 +18,5 @@ the concept can be defined as bits per component, bits per channel, bits per col
 (all three abbreviated bpc), and also bits per pixel component, bits per color channel 
 or bits per sample (bps).
 
-See - https://en.wikipedia.org/wiki/Color_depth 
+Refer to https://en.wikipedia.org/wiki/Color_depth for full digest.
 
