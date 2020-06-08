@@ -23,3 +23,5 @@ or bits per sample (bps).
 Refer to https://en.wikipedia.org/wiki/Color_depth for full digest.
 
 This is Visual Studio 2010 project using .NET 4.0 (for max upgrade-ability) and the latest SharpDX lib 4.2.0.
+
+See blog entry - https://metadataconsulting.blogspot.com/2020/06/csharp-getting-proper-number-of-bits.html 
