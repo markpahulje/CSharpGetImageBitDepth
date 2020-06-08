@@ -365,7 +365,7 @@ namespace SharpDXGetBitDepth
                     return 8; //Gets the Cmyk32 pixel format which displays 32 bits per pixel (BPP) with each color channel (cyan, magenta, yellow, and black) allocated 8 bits per pixel (BPP).
             }
 
-            return 0; 
+            return -1; 
         }
 
         //We need this to get Pixel Format 
