@@ -1,9 +1,9 @@
 # CSharpGetImageBitDepth
 
-Gets the colloquial "Bit Depth" of an image, but techically gets the bits per channel.
+Gets the colloquial "Bit Depth" of an image, but technically gets the bits per channel.
 
 This sample solution illustrates the shortcomings of standard windows image library
-and uses a third party SharpDX lib to get image pixelformat, and thus the "bit depth" of an image. 
+and uses a third party SharpDX lib to get image pixel format, and thus the "bit depth" of an image. 
 It seems to be the only library that works consistently, in regards to getting the correct info for an image.
 
 This is custom solution is provided for bits per pixel for an image which is really report bits per channel, but commonly misinterpreted. See below.
@@ -20,4 +20,4 @@ or bits per sample (bps).
 
 Refer to https://en.wikipedia.org/wiki/Color_depth for full digest.
 
-This is Visual Studio 2010 project using .NET 4.0 (for max updatability) and the latest SHarpDX lib 4.2.0
+This is Visual Studio 2010 project using .NET 4.0 (for max updatability) and the latest SHarpDX lib 4.2.0.
