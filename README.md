@@ -20,3 +20,4 @@ or bits per sample (bps).
 
 Refer to https://en.wikipedia.org/wiki/Color_depth for full digest.
 
+This is Visual Studio 2010 project using .NET 4.0 (for max portability) and the lastest SHarpDX lib 4.2.0.
