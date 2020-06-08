@@ -286,7 +286,7 @@ namespace SharpDXGetBitDepth
             switch (strPF)
             {
                 case "Default": 
-                    return -1; //Gets the pixel format that is best suited for the particular operation.
+                    return -1; //Gets the pixel format that is best suited for the particular operation, or here not found!
 
                 case "Indexed1":
                     return 1; //Gets the pixel format specifying a paletted bitmap with 2 colors.
@@ -365,7 +365,7 @@ namespace SharpDXGetBitDepth
                     return 8; //Gets the Cmyk32 pixel format which displays 32 bits per pixel (BPP) with each color channel (cyan, magenta, yellow, and black) allocated 8 bits per pixel (BPP).
             }
 
-            return 0; //Gets the pixel format that is best suited for the particular operation.
+            return 0; 
         }
 
         //We need this to get Pixel Format 
