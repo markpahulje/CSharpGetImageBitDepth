@@ -20,7 +20,7 @@ namespace SharpDXGetBitDepth
             sw.Start();
 
             //*************************************************
-            //This sample solution illustratrates the shortcommings of starndard windows image library
+            //This sample solution illustrates the shortcomings of standard windows image library
             //and illustrate a third party approach that seems to work consistently, in regards to getting an
             //image format, and secondly the bit depth. 
             //
@@ -28,8 +28,8 @@ namespace SharpDXGetBitDepth
             //*************************************************
 
             //*************************************************
-            //There is a great deal of confusion, for the general public regarding the expectatation what bit depth is,
-            //it loosely refers to number of bits used in an image versus number of bits used per each chanel or color.
+            //There is a great deal of confusion, for the general public regarding the expectation what bit depth is,
+            //it loosely refers to number of bits used in an image versus number of bits used per each channel or color.
             //When referring to a pixel, the concept can be defined as bits per pixel (bpp),
             //which specifies the number of bits used. When referring to a color component, 
             //the concept can be defined as bits per component, bits per channel, bits per color 
@@ -38,6 +38,8 @@ namespace SharpDXGetBitDepth
             //*************************************************
             //https://en.wikipedia.org/wiki/Color_depth 
 
+            //Note, downgraded to a .NET 4.0 VS solution for max portability.
+            //Add assemblies listed in package config file, for NUGET or direct download.
 
             //http://www.schaik.com/pngsuite/pngsuite_bas_png.html - test pictures
             //string filename = "basn0g01.png"; //basn0g01 - black & white  correct
