@@ -6,6 +6,8 @@ This sample solution illustrates the shortcomings of standard windows image libr
 and uses a third party SharpDX lib to get image pixel format, and thus the "bit depth" of an image. 
 It seems to be the only library that works consistently, in regards to getting the correct info for an image.
 
+System.Windows.Media and System.Drawing report different pixel formats for same image and incorrectly for 16-bit images in particular.
+
 This is custom solution is provided for bits per pixel for an image which is really report bits per channel, but commonly misinterpreted. See below.
 
 Motivation
